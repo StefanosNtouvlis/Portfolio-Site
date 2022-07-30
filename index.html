@@ -271,31 +271,12 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                     <!--   <form action="" method="post">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="NAME">
-                                <input type="email" required placeholder="EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <a href="" class="main-btn">
-                                    <span class="btn-text">Send Message</span>
-                                    <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
-                                </a>
-                            </div>
-                            </div>
-                        </form>-->
-                        <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+
                             <form action="https://formsubmit.co/8fb04e6ee3528375cab4e2a9de9d48be" method="POST">
                                 <input type="text" name="Name" placeholder="Name" required>
                                 <input type="email" name="Email" placeholder="Email" required>
                                 <input type="text" name="Phone No" placeholder="Phone" required>
-                                <textarea name="Meessage" cols="8" rows="8" placeholder="Message here..."></textarea>
+                                <textarea name="Message" cols="8" rows="8" placeholder="Message here..."></textarea>
                                 <button type="submit">SEND</button>
                             </form>
                     </div>
@@ -327,27 +308,6 @@
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
-
-   <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "stefanos.ntouvlis@gmail.com",
-                Password : "Elarabi7",
-                To : 'stefanos.ntouvlis@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New Contact for Enquiry",
-                Body : "Name: " + document.getElementById("name").value
-                + "<br> Email: " + document.getElementById("email").value
-                + "<br> Phone no: " + document.getElementById("phone").value
-                + "<br> MEssage: " + document.getElementById("message").value
-            }).then(
-                 message => alert("Message sent successfully")
-                );
-
-        }
-    </script>-->
      <script src="app.js"></script>
 </body>
 </html>
