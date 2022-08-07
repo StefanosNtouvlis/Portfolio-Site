@@ -96,13 +96,6 @@ section {
     transform: translateY(0)scale(1);
 }
 
-//.container {
-//display: none;
-//transform: translateY(-100%) scale(0);
-//transition: all .4s ease-in-out;
-//background-color: var(--color-primary);
-//}
-
 .active {
     display: block;
     animation: appear 1s ease-in-out;
