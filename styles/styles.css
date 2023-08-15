@@ -792,7 +792,7 @@ section {
   padding-left: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
   }
@@ -894,6 +894,7 @@ section {
     padding: 2rem 2.5rem !important;
   }
 
+
   .port-text{
     display: flex;
     position: absolute;
@@ -914,8 +915,7 @@ section {
   text-align: center;
   padding-bottom: 6rem;
   place-items: center;
-  margin: 0 auto;
-  width: 100%;
+  width: 2500%;
  }
 
  .portfolios .portfolio-item {
