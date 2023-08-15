@@ -792,7 +792,7 @@ section {
   padding-left: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   header {
     padding: 0 !important;
   }
@@ -844,47 +844,88 @@ section {
     margin: 1rem 0.3rem;
   }
 
-<<<<<<< HEAD
   .main-title{
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-
-=======
->>>>>>> parent of e3a2e88 (About and Portf media updated for mob)
   .about-container {
     grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
+    padding-bottom: 900px;
+    padding-left: 50px;
   }
 
   .about-container .left-about {
     padding-right: 0;
+    display: grid;
+    place-items: center;
   }
 
   .about-container .left-about p {
     padding-left: 0;
+    margin: 0 auto;
   }
 
   .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .stat-title{
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
   }
 
   .container {
     padding: 2rem 2.5rem !important;
   }
 
-  .portfolios {
-    grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
-    margin-top: 1rem;
+  .port-text{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 6%;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
   }
+
+ .portfolios{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 6rem;
+  place-items: center;
+  margin: 0 auto;
+  width: 100%;
+ }
+
+ .portfolios .portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 15px;
+  width: 200%;
+}
 
   .tutorials {
     grid-template-columns: repeat(1, 1fr);
